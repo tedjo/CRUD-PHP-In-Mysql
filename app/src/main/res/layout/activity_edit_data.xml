@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditData">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Makanan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/Update_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Makanan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/Update_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stock Makanan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/Update_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desc Makanan"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"/>
+        <EditText
+            android:id="@+id/Update_decs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="input"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="15dp"/>
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:text="Stock Makanan"-->
+        <!--            android:textSize="20dp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:layout_marginTop="5dp"-->
+        <!--            android:layout_marginLeft="15dp"/>-->
+        <!--        <RadioGroup-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="vertical"-->
+        <!--            android:layout_marginLeft="15dp">-->
+        <!--            <RadioButton android:id="@+id/radio_pirates"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Menu Ada" />-->
+        <!--            <RadioButton android:id="@+id/radio_ninjas"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:text="Menu Tidak Ada" />-->
+        <!--        </RadioGroup>-->
+
+        <Button
+            android:id="@+id/Btn_updateData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Data"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/Btn_deleteData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hapus Data"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
